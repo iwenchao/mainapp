@@ -1,0 +1,3 @@
+include ':libBase'
+include ':app'
+rootProject.name = "mainapp"
