@@ -1,7 +1,10 @@
-include ':libBase'
 include ':app'
 rootProject.name = "mainapp"
 
 
-include(':LoginComponent')
-project(':LoginComponent').projectDir = new File('../LoginComponet/libLogin')
+include ':libLogin'
+project(':libLogin').projectDir = new File('../LoginComponent/libLogin')
+
+
+include ':libBase'
+project(':libBase').projectDir = new File('../BaseComponent/libBase')
