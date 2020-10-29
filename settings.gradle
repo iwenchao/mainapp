@@ -6,5 +6,5 @@ include ':libLogin'
 project(':libLogin').projectDir = new File('./LoginComponent/libLogin')
 //
 //
-//include ':libBase'
-//project(':libBase').projectDir = new File('../BaseComponent/libBase')
+include ':libBase'
+project(':libBase').projectDir = new File('./BaseComponent/libBase')

@@ -1,3 +1,6 @@
 [submodule "LoginComponent"]
 	path = LoginComponent
 	url = https://github.com/iwenchao/LoginComponent.git
+[submodule "BaseComponent"]
+	path = BaseComponent
+	url = https://github.com/iwenchao/BaseComponent.git
