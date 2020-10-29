@@ -1,0 +1,3 @@
+[submodule "LoginComponent"]
+	path = LoginComponent
+	url = https://github.com/iwenchao/LoginComponent.git
